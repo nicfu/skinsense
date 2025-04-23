@@ -17,8 +17,8 @@ export default function Analysis() {
   }, [navigate]);
 
   return (
-    <div className="flex-1 flex flex-col p-6">
-      <div className="bg-white rounded-xl p-6 flex-1 flex flex-col items-center justify-center">
+    <div className="min-h-screen flex items-center justify-center p-6">
+      <div className="bg-white rounded-xl p-8 w-full max-w-md">
         <LoadingAnimation />
       </div>
     </div>
