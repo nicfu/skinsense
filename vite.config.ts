@@ -12,6 +12,7 @@ export default defineConfig({
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),
+      '@skinsense': path.resolve(__dirname, './src/skinsense'),
       '@components': path.resolve(__dirname, './src/components'),
       'pages': path.resolve(__dirname, './src/pages'),
       '@lib': path.resolve(__dirname, './src/lib'),
